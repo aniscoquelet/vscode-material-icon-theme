@@ -1,7 +1,7 @@
 {
-  "name": "material-icon-theme",
-  "displayName": "Material Icon Theme",
-  "description": "Material Design Icons for Visual Studio Code",
+  "name": "material-icons-laravel-6",
+  "displayName": "Material Icon Theme for Laravel 6",
+  "description": "Material Design Icons for Visual Studio Code with Laravel 6 icon for blade views.",
   "version": "3.9.3",
   "publisher": "PKief",
   "engines": {
@@ -30,7 +30,9 @@
     "icon-theme",
     "customization"
   ],
-  "extensionKind": ["ui"],
+  "extensionKind": [
+    "ui"
+  ],
   "activationEvents": [
     "*"
   ],
@@ -38,8 +40,8 @@
   "contributes": {
     "iconThemes": [
       {
-        "id": "material-icon-theme",
-        "label": "Material Icon Theme",
+        "id": "material-icon-theme-laravel-6",
+        "label": "Material Icon Theme for Laravel 6",
         "path": "./dist/material-icons.json",
         "_watch": true
       }
